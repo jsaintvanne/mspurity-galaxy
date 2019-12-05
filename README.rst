@@ -2,16 +2,11 @@ msPurity for Galaxy
 ========================
 |Build Status (Travis)| |Git| |Bioconda| |License|
 
-Warning
+Version v1.12.0+galaxy1
 ------
-Proceed with caution these tools are in active development so tools may change! Stable release to Galaxy toolshed coming soon. Currently these tools will only work when the 'tomnl' conda channel is being used with Galaxy.
-
-Version v1.11.4+galaxy1
-------
-NOTE: bioconductor-mspurity v1.11.4 only available on 'tomnl' conda channel - to be updated to bioconda soon.
 
   - msPurity
-     - bioconductor-mspurity v1.11.4
+     - bioconductor-mspurity v1.12.0
   - Galaxy tools
      - v1
 
@@ -59,7 +54,19 @@ Authors, contributors & contacts
 
 Changes
 -------------------------
+v1.12.0-galaxy1
+  - Bug fix (offsets were not being automatically selected for purityA) thanks jsaintvanne
+  - Exit script without error for flagRemove
+  - Username updated in Toolshed yaml
+
+
+v1.12.0-galaxy0
+  - Updates for Bioconductor stable msPurity v1.12.0 release 
+  - Additional columns added for spectral matching (for msnpy use case)
+  - Merge of v1.11.4-galaxy1
+
 v1.11.4-galaxy1
+  - Not submitted to toolshed
   - Update to follow IUC guidelines for Galaxy tool development
 
 v1.11.4-galaxy0.2.7
